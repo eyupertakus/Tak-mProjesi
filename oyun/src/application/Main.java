@@ -12,13 +12,13 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) {
         // Etiket (Label)
-        Label label = new Label("Oyunumuza hoşgeldiniz..");
+        Label label = new Label("Welcome to Cennet");
 
         // Buton
         Button button = new Button("Buraya tıklarsan sana yeni bir mesaj göstericem");
 
         // Butona tıklanınca yapılacak işlem
-        button.setOnAction(e -> label.setText("Hı hI hı çoğh komik"));
+        button.setOnAction(e -> label.setText("Oyunumuza hoşgeldiniz, güvenliğiniz ve eğlenceniz önceliğimizdir"));
 
         // Dikey kutu yerleşimi
         VBox layout = new VBox(10); // 10 piksel aralık
@@ -28,7 +28,7 @@ public class Main extends Application {
         Scene scene = new Scene(layout, 400, 400);
 
         // Pencere ayarları
-        primaryStage.setTitle("Basit JavaFX Uygulaması");
+        primaryStage.setTitle("Kule Oyunu");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
