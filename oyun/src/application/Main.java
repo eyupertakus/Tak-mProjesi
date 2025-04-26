@@ -25,7 +25,7 @@ public class Main extends Application {
         layout.getChildren().addAll(button, label);
 
         // Sahne oluşturma
-        Scene scene = new Scene(layout, 300, 300);
+        Scene scene = new Scene(layout, 400, 400);
 
         // Pencere ayarları
         primaryStage.setTitle("Basit JavaFX Uygulaması");
