@@ -15,7 +15,7 @@ public class Main extends Application {
         Label label = new Label("Welcome to Cennet");
 
         // Buton
-        Button button = new Button("Buraya tıklarsan sana yeni bir mesaj göstericem");
+        Button button = new Button("Buraya tıkla");
 
         // Butona tıklanınca yapılacak işlem
         button.setOnAction(e -> label.setText("Oyunumuza hoşgeldiniz, güvenliğiniz ve eğlenceniz önceliğimizdir"));
